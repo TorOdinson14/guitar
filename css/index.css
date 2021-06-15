@@ -1,0 +1,56 @@
+
+body{
+background-color: black;
+}
+
+img{
+    max-width: 100%;
+}
+ul{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0 ;
+}
+
+li{
+    list-style-type: none;
+}
+header{
+    background-color: aliceblue;
+}
+main{
+    background-image:url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701496306.jpg) ;
+
+
+background-position:15% 8%;
+background-size: 140%;
+background-repeat: no-repeat;
+color: aliceblue;
+
+}
+
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+
+
+display: flex;
+justify-content: start;
+flex-wrap: nowrap;
+}
+
+
+aside{
+    margin-right: 30px;
+}
+.aside-list{
+    max-width: 30%;
+}
+
+
+.content{
+
+    text-align: center;
+    max-width: 70%;
+}
