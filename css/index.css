@@ -72,3 +72,38 @@ max-width: 100%;
 margin-left: auto;
 margin-right: auto;
 }
+
+
+
+
+
+
+div.scrollmenu {
+    display: flex;
+   
+    text-align: start;
+    background-color: rgba(0, 0, 0, 0.507);
+    overflow: auto;
+    white-space: nowrap;
+    max-width: 100%;
+    justify-content: space-between;
+}
+div.scrollmenu:hover {
+    background-color: rgba(91, 91, 94, 0.397);
+}
+
+
+div.scrollmenu a {
+    min-width: 100px;
+  
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: rgb(155, 154, 154);
+}
+
