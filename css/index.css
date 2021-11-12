@@ -11,6 +11,7 @@ background-repeat: no-repeat;
 
 img{
     max-width: 75%;
+    height: auto;
     position: center;
 }
 ul{
@@ -67,7 +68,7 @@ aside{
 
 }
 
-.li-img {
+.li-content {
 max-width: 100%;
 margin-left: auto;
 margin-right: auto;
