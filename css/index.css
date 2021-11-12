@@ -12,17 +12,17 @@ body{
     
     
     main{
-        background-image: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701496306.jpg);
-        background-size: 250%;
+        background-image: url(https://besthqwallpapers.com/Uploads/8-4-2020/127978/thumb2-html5-black-logo-programming-language-grid-metal-background-html5-artwork.jpg);
+        background-size: 100%;
         background-position: top center;
       margin: 0 -8px 0 -8px;
       flex: 1 1 auto;
     }
     
     
-    header img{
+    img{
         max-width: 100%;
-       height: auto;
+        max-height: 150px;
        padding: 0 0 0 0 ;
     }
     
@@ -38,11 +38,7 @@ body{
     h1{
         color: aliceblue;
         font-size: 40px;
-        text-align: center;
-        padding: 40px 0 0 0 ;
-        margin: 0 0 0 0 ;
     }
-
     h2{
         color: aliceblue;
     }
@@ -71,7 +67,7 @@ body{
     
     .li-list{
     
-
+        min-width: 250px;
         margin:  8px 0 8px 0;
         padding-left: 10px;
         background-color: rgba(83, 69, 83, 0.452);
@@ -135,7 +131,7 @@ body{
         .li-img{
            
         
-            max-width: 10%;
+            max-width: 100%;
             height: 100px;
           background-image: url(/img/обучение.png);
           background-repeat: no-repeat;
@@ -157,17 +153,17 @@ body{
     
     
     
-    .ul-notes{
-display: flex;
-flex-wrap: wrap;
-
+    
+    .header-bottom{
+    
+    
+    
+    
+    
     }
-
-   .notes img {
-       width: 100%;
-       header:auto;
-       padding: 10px 0 10px 0;
-   } 
+    
+    
+    
     
     .container{
     max-width: 1200px ;
