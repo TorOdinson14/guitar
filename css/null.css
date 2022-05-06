@@ -12,8 +12,16 @@ ol[class] {
 }
 
 /* Убираем внешние отступы */
+
+h1{
+  text-align: center;
+  color: aliceblue;
+  margin: 0;
+}
+
+
 body,
-h1,
+
 h2,
 h3,
 h4,
