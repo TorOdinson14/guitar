@@ -1,31 +1,35 @@
-body{
+header {
+    background-image: url(https://www.rabstol.net/uploads/gallery/main/135/rabstol_net_guitar_17.jpg);
+    background-size: 80%;
+    background-position: 50% 24%;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+
+
+
+
+}
+
+.vkladky{
     background-color: black;
-
-}  
-
-.container{
-   width:1200px ;
-   margin-left: auto;
-   margin-right: auto;
+}
+.vkladky img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+h1 {
+padding: 250px 0 0 50px;
 
-.ul-list{
-width: 100%;
+    text-align: left;
+    color: aliceblue;
 
 
 }
-
-.li-list{
-
-
-flex-wrap: wrap;
-}
-
-
-
-img{
-max-width:100% ;
-height: auto;
-}
-

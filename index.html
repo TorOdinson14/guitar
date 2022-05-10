@@ -5,77 +5,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guitars</title>
-    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/null.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/vkladky.css">
+    <title>Document</title>
 </head>
 
 <body>
+
+
+
     <header>
-        <h1>Guitar</h1>
+        <h1>Сновы </h1>
 
         <div class="container">
 
         </div>
+
+
 
     </header>
 
-    <main>
-
-        <div class="container">
-
-
-            <div class="contant">
-
-
-                <ul class="ul-list">
-                    <il class="li-list">
-                
-                        <img id="vertical" src="http://guitarshilin.ru/images/index9gl.GIF">
-                        <img src="img/Screenshot_3.png" alt="">
-                        </li>
-
-
-                        <il class="li-list">
-                            <img src="https://static.tildacdn.com/tild6133-6661-4132-b663-663633383832/_____.png">
-                            <img id="gorisontal" src="img/photo_2021-11-12_05-44-37.jpg">
-
-                          
-
-                            </li>
-
-                            <il class="li-list">
-                                </li>
-
-                                <il class="li-list">
-                                    <img
-                                        src="https://avatars.mds.yandex.net/get-pdb/1939052/1da4e0a6-7101-4c34-ad3a-0cc965d285f0/s1200?webp=false">
-                                    </li>
-
-                                    <il class="li-list">
-                                        <img src="img/photo_2021-11-12_05-44-34.jpg">
-                                        </li>
-
-                                   
-
-                                            <il class="li-list">
-                                                <img src="img/photo_2021-11-12_05-44-25.jpg">
-                                                </li>
 
 
 
-                </ul>
-
-            </div>
-
-
+    <div class="vkladky">
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'acord')" id="defaultOpen">Акорды</button>
+            <button class="tablinks" onclick="openCity(event, 'around')">Круг</button>
+            <button class="tablinks" onclick="openCity(event, 'piano')">интервалы</button>
 
         </div>
+
+        <div id="around" class="tabcontent">
+            <img src="/img/Screenshot_3.png" alt="">
+        </div>
+
+        <div id="piano" class="tabcontent">
+            <img src="img/photo_2021-11-12_05-44-37.jpg" alt="">
+            <br>
+            <img src="img/photo_2021-11-12_05-44-34.jpg" alt="">
+
+        </div>
+
+        <div id="acord" class="tabcontent">
+            <img src="img/index9gl.gif" alt="">
+        </div>
+    </div>
+
+
+
+    <main>
+
+
 
 
     </main>
 
 
+    <script src="js/vkladky.js"></script>
 </body>
+
+
 
 </html>
