@@ -26,12 +26,9 @@ header {
 
 
 
-h1 {
-    display: block;
-    position: absolute;
-    padding: 20% 0px 0px 50px ;
-    
-        color: aliceblue;
+header div {
+  height: auto;
     
     
     }
+

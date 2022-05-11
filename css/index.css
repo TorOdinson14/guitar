@@ -1,7 +1,6 @@
 
 body{
-    font-size: 1.5em; /* Размер шрифта */
-    word-wrap: break-word; /* Перенос слов */ 
+      word-wrap: break-word; /* Перенос слов */ 
 }
 .container {
     margin-left: auto;
@@ -24,3 +23,7 @@ body{
     margin-right: auto;
 }
 
+header {
+    display: flex;
+    align-items: flex-end;
+}
