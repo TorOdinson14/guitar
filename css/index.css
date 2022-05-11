@@ -1,8 +1,4 @@
-header {
-    background-image: url(https://www.rabstol.net/uploads/gallery/main/135/rabstol_net_guitar_17.jpg);
-    background-size: 80%;
-    background-position: 50% 24%;
-}
+
 
 .container {
     margin-left: auto;
@@ -26,7 +22,7 @@ header {
 }
 
 h1 {
-padding: 250px 0 30px 50px;
+padding: 300px 0px 0px 50px ;
 
     text-align: left;
     color: aliceblue;
