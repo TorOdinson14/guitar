@@ -12,10 +12,10 @@
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 14px 1px;
+    padding: 0px 1px;
     transition: 0.3s;
     font-size: auto;
-    width: 180px;
+    width: 135px;
     height: 90px;
     word-wrap: break-word;
 }
