@@ -14,7 +14,7 @@
     cursor: pointer;
     padding: 14px 1px;
     transition: 0.3s;
-    font-size: ;
+    font-size: auto;
     width: 180px;
     height: 90px;
     word-wrap: break-word;
