@@ -16,10 +16,16 @@ body{
 }
 
 header {
-    display: flex;
+
     align-items: flex-end;
 }
 
+header div {
+    margin-top: 50px;
+
+    display: flex;
+  justify-content: space-between;
+}
 
 
 main{
@@ -28,9 +34,9 @@ main{
 
 
 h1{
-    text-align: center;
+    text-align: left;
     color: aliceblue;
-   
-    padding: 10px 20px;
+   margin: 0 0;
+   padding: 50px 0 0px 30px;
   }
   
