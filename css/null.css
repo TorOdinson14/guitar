@@ -13,11 +13,14 @@ ol[class] {
 
 /* Убираем внешние отступы */
 
-
+h2{
+  text-align: center;
+  color: aliceblue;
+}
 
 body,
 
-h2,
+
 h3,
 h4,
 p,
