@@ -21,7 +21,8 @@ header {
 }
 
 header div {
-    margin-top: 50px;
+ 
+padding-top: 140px;
 
     display: flex;
   justify-content: space-between;
@@ -34,9 +35,10 @@ main{
 
 
 h1{
-    text-align: left;
+
+ 
     color: aliceblue;
    margin: 0 0;
-   padding: 50px 0 0px 30px;
+   padding: 10px 0 0px 30px;
   }
   
