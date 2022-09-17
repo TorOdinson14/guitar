@@ -36,9 +36,18 @@ main{
 
 h1{
 
- 
+ text-align: center;
     color: aliceblue;
    margin: 0 0;
    padding: 10px 0 0px 30px;
   }
-  
+  .vertical{
+    margin: 20px  0 0 0;
+     display: flex;
+         justify-content: space-around;
+
+  }
+
+.vertical a {
+    padding-top: 30%;
+}
