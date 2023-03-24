@@ -1,5 +1,6 @@
 
 body{
+    margin: -8px;
       word-wrap: break-word; /* Перенос слов */ 
 }
 
@@ -8,7 +9,7 @@ body{
     background-color: rgb(134, 134, 134)
 }
 .vkladky img{
-    width: 99%;
+    width: 100%;
     height: auto;
     display: block;
     margin-left: auto;
@@ -50,4 +51,12 @@ h1{
 
 .vertical a {
     padding-top: 30%;
+}
+
+
+
+iframe{
+min-width: 99%;
+
+min-height: 300px;
 }
