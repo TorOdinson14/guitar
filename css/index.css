@@ -5,10 +5,10 @@ body{
 
 
 .vkladky{
-    background-color: black;
+    background-color: rgb(134, 134, 134)
 }
 .vkladky img{
-    width: 100%;
+    width: 95%;
     height: auto;
     display: block;
     margin-left: auto;
