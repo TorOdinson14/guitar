@@ -41,8 +41,9 @@
 
         <div class="vkladky">
             <div class="tab">
-
-                <button class="tablinks" onclick="openCity(event, 'acord')" id="defaultOpen">Акорды</button>
+                <button class="tablinks" onclick="openCity(event, 'gramatica')"id="defaultOpen">граматика</button>
+                <button class="tablinks" onclick="openCity(event, 'acord')" >Акорды</button>
+             
                 <button class="tablinks" onclick="openCity(event, 'around')">Круг</button>
                 <button class="tablinks" onclick="openCity(event, 'interval')">интервалы</button>
                 <button class="tablinks" onclick="openCity(event, 'major')">Акорды в тональности</button>
@@ -60,6 +61,30 @@
                 <img src="img/Screenshot_3.png" alt="">
 
             </div>
+
+
+            <div id="gramatica" class="tabcontent">
+<ul>
+
+    <li>Большой мажорный – большая септима и мажорное трезвучие</li>
+    <li>Большой минорный – большая септима и минорное трезвучие</li>
+    <li>Малый мажорный – малая септима и мажорное трезвучие</li>
+<li>Малый минорный – малая септима и минорное трезвучие</li>
+<li>Большой увеличенный – большая септима и увеличенное трезвучие</li>
+</ul>
+
+<ul><li>Большой мажорный септаккорд — септаккорд, состоящий из большой терции, чистой квинты и большой септимы
+    <img style="width: 300px;" src="data:image/png;base64,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" alt="">
+<li></li>
+</li>
+<li>
+
+</li>
+
+
+</ul>
+            </div>
+
 
 
             <div id="interval" class="tabcontent">

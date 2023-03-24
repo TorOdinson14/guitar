@@ -1,100 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/null.css">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/vkladky.css">
-    <link rel="stylesheet" href="css/android.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/null.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/vkladky.css" />
+    <link rel="stylesheet" href="css/android.css" />
 
     <title>Document</title>
-</head>
+  </head>
 
-<body>
-
-
-
+  <body>
     <header>
-
-
-
-        <div>
-            <a href="index.html"><img style="width: 50px;" src="img/в лево.png" alt=""></a>
-            <h1>Ритм</h1>
-            <a href=""><img style="width: 50px;" src="" alt=""></a>
-        </div>
-
-
-
+      <div>
+        <a href="index.html"
+          ><img style="width: 50px" src="img/в лево.png" alt=""
+        /></a>
+        <h1>Ритм</h1>
+        <a href=""><img style="width: 50px" src="" alt="" /></a>
+      </div>
     </header>
 
-
-
-
-
-
     <div class="container">
-
-
-        <div class="vkladky">
-            <div class="tab">
-
-                <button class="tablinks" onclick="openCity(event, 'acord')" id="defaultOpen">Акорды</button>
-                <button class="tablinks" onclick="openCity(event, 'around')">Круг</button>
-                <button class="tablinks" onclick="openCity(event, 'piano')">интервалы</button>
-                <button class="tablinks" onclick="openCity(event, 'major')">Акорды в тональности</button>
-                <button class="tablinks" onclick="openCity(event, 'grif')">Ноты на грифе</button>
-            </div>
-
-
-
-
-
-
-            <div id="around" class="tabcontent">
-                <img src="img/Screenshot_3.png" alt="">
-
-            </div>
-
-
-            <div id="piano" class="tabcontent">
-                <img src="img/photo_2021-11-12_05-44-37.jpg" alt="">
-                <br>
-                <img src="img/photo_2021-11-12_05-44-34.jpg" alt="">
-
-            </div>
-
-            <div id="acord" class="tabcontent">
-                <img src="img/index9gl.gif" alt="">
-                <br>
-                <img src="https://i.pinimg.com/564x/0d/89/cc/0d89ccd7d11a91a2ad53f5c6434fdfea.jpg" alt="">
-
-            </div>
-
-            <div id="major" class="tabcontent">
-                <img src="https://pereborom.ru/wp-content/uploads/2019/06/Akkordy-vo-vseh-mazhornyh-tonalnostyah.jpg"
-                    alt="">
-                <br>
-                <img src="https://pereborom.ru/wp-content/uploads/2019/06/Akkordy-vo-vseh-minornyh-tonalnostyah.jpg"
-                    alt="">
-            </div>
-
-            <div id="grif" class="tabcontent">
-                <img src="https://guitartun.com/wp-content/uploads/2012/12/location-of-the-notes-on-the-fretboard.gif"
-                    alt="">
-
-                <img src="https://gitaraplus.ru/pics/major_minor.png" alt="">
-            </div>
+      <div class="vkladky">
+        <div class="tab">
+          <button
+            class="tablinks"
+            onclick="openCity(event, 'acord')"
+            id="defaultOpen"
+          >
+            Акорды
+          </button>
+          <button class="tablinks" onclick="openCity(event, 'around')">
+            Круг
+          </button>
+          <button class="tablinks" onclick="openCity(event, 'piano')">
+            интервалы
+          </button>
+          <button class="tablinks" onclick="openCity(event, 'major')">
+            Акорды в тональности
+          </button>
+          <button class="tablinks" onclick="openCity(event, 'grif')">
+            Ноты на грифе
+          </button>
         </div>
 
+        <div id="around" class="tabcontent">
+          <img src="img/Screenshot_3.png" alt="" />
+        </div>
+
+        <div id="piano" class="tabcontent">
+          <img src="img/photo_2021-11-12_05-44-37.jpg" alt="" />
+          <br />
+          <img src="img/photo_2021-11-12_05-44-34.jpg" alt="" />
+        </div>
+
+        <div id="acord" class="tabcontent">
+          <img src="img/index9gl.gif" alt="" />
+          <br />
+          <img
+            src="https://i.pinimg.com/564x/0d/89/cc/0d89ccd7d11a91a2ad53f5c6434fdfea.jpg"
+            alt=""
+          />
+        </div>
+
+        <div id="major" class="tabcontent">
+          <img
+            src="https://pereborom.ru/wp-content/uploads/2019/06/Akkordy-vo-vseh-mazhornyh-tonalnostyah.jpg"
+            alt=""
+          />
+          <br />
+          <img
+            src="https://pereborom.ru/wp-content/uploads/2019/06/Akkordy-vo-vseh-minornyh-tonalnostyah.jpg"
+            alt=""
+          />
+        </div>
+
+        <div id="grif" class="tabcontent">
+          <img
+            src="https://guitartun.com/wp-content/uploads/2012/12/location-of-the-notes-on-the-fretboard.gif"
+            alt=""
+          />
+
+          <img src="https://gitaraplus.ru/pics/major_minor.png" alt="" />
+        </div>
+      </div>
     </div>
 
     <script src="js/vkladky.js"></script>
-</body>
-
-
-
+  </body>
 </html>
