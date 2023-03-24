@@ -1,4 +1,6 @@
-
+html{
+    margin: 0px;
+}
 body{
     margin: -10px;
       word-wrap: break-word; /* Перенос слов */ 
