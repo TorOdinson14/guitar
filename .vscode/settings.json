@@ -1,0 +1,12 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Community Material Theme",
+  "editor.linkedEditing": true,
+  "editor.fontSize": 18,
+  "window.zoomLevel": 1,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
