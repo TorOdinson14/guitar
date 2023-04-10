@@ -1,67 +1,60 @@
-html{
-    margin: 10px;
+html {
+  margin: 10px;
 }
-body{
-    margin: -10px;
-      word-wrap: break-word; /* Перенос слов */ 
+body {
+  margin: -10px;
+  word-wrap: break-word; /* Перенос слов */
 }
 
-
-.vkladky{
-    background-color: rgb(134, 134, 134)
+.vkladky {
+  background-color: rgb(134, 134, 134);
 }
-.vkladky img{
-    width: 100%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.vkladky img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 header {
-
-    align-items: flex-end;
+  align-items: flex-end;
 }
 
 header div {
- 
-padding-top: 140px;
+  padding-top: 140px;
 
-    display: flex;
+  display: flex;
   justify-content: space-between;
 }
 
-
-main{
-    background-color: black;
+main {
+  background-color: black;
 }
 
-
-h1{
-
- text-align: center;
-    color: aliceblue;
-   margin: 0 0;
-   padding: 10px 0 0px 30px;
-  }
-  .vertical{
-    margin: 20px  0 0 0;
-
-
-
-  }
+h1 {
+  text-align: center;
+  color: aliceblue;
+  margin: 0 0;
+  padding: 10px 0 0px 30px;
+}
+.vertical {
+  margin: 20px 0 0 0;
+}
 
 .vertical a {
-    padding-top: 30%;
+  padding-top: 30%;
 }
 
-
-.video{
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+.video {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
-iframe{
-
-height: auto;
+iframe {
+  margin: 20px;
+  height: auto;
 }
