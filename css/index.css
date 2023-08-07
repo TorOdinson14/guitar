@@ -1,60 +1,95 @@
-html {
-  margin: 10px;
-}
-body {
-  margin: -10px;
-  word-wrap: break-word; /* Перенос слов */
-}
-
-.vkladky {
-  background-color: rgb(134, 134, 134);
-}
-.vkladky img {
-  width: 100%;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
 }
 
+/* Basic styling for the header */
 header {
-  align-items: flex-end;
-}
-
-header div {
-  padding-top: 140px;
-
-  display: flex;
-  justify-content: space-between;
-}
-
-main {
-  background-color: black;
-}
-
-h1 {
+  background-color: #333;
+  color: #fff;
   text-align: center;
-  color: aliceblue;
-  margin: 0 0;
-  padding: 10px 0 0px 30px;
-}
-.vertical {
-  margin: 20px 0 0 0;
+  padding: 10px;
 }
 
-.vertical a {
-  padding-top: 30%;
+/* Styling for the navigation buttons */
+.tablinks {
+  background-color: #f2f2f2;
+  border: none;
+  color: #333;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
 }
 
-.video {
-  justify-content: center;
+/* Active tab button style */
+.tablinks.active {
+  background-color: #ddd;
+}
+
+/* Styling for the container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Basic styling for the tab content */
+.tabcontent {
+  display: none;
+}
+
+/* Styling for the images within tab content */
+.tabcontent img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+/* Styling for the video iframe */
+.tabcontent iframe {
+  max-width: 100%;
+  height: 400px;
+}
+
+/* Styling for the lists within tab content */
+.tabcontent ul {
+  margin-top: 20px;
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+/* Styling for the links in the header */
+header a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 10px;
+}
+
+/* Styling for the main heading */
+h1 {
+  margin-top: 20px;
+  font-size: 28px;
+  text-align: center;
+}
+
+/* Styling for the div containing the navigation buttons */
+.tab {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  justify-content: center;
+  margin-top: 20px;
 }
-iframe {
-  margin: 20px;
-  height: auto;
+
+/* Media query for responsiveness */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
 }

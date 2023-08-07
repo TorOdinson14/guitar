@@ -42,7 +42,8 @@
         <div class="vkladky">
             <div class="tab">
                 <button class="tablinks" onclick="openCity(event, 'Gamm')" id="defaultOpen">Виды гам</button>
-                <button class="tablinks" onclick="openCity(event, 'pentatonika')">пентатоника </button>
+                <button class="tablinks" onclick="openCity(event, 'pentatonika')">пентатоника минор </button>
+                <button class="tablinks" onclick="openCity(event, 'pentatonik')">пентатоника мажер</button>
                 <button class="tablinks" onclick="openCity(event, 'do')">гаммы до C </button>
                 <button class="tablinks" onclick="openCity(event, 're')">гаммы ре D</button>
                 <button class="tablinks" onclick="openCity(event, 'mi')">гаммы ми E</button>
@@ -75,8 +76,8 @@
                 <iframe width="" height="" src="https://www.youtube.com/embed/V3C5Kr3k_OM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 <iframe width="" height="" src="https://www.youtube.com/embed/9-nMjKPwAQE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
              </div>
-
-       <p>
+             
+      <p>
                 Гаммы vs. арпеджио
             </p>
             <p>
@@ -91,13 +92,26 @@
             
                 <img src="data:image/png;base64,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" alt="">
           <p>Боксы пентатоники
-            В качестве наглядного примера, возьмём Фа-минорную пентатонику, которая содержит следующие ноты (ступени): Фа, Ля-бемоль, Си-бемоль, До и Ми-бемоль.
-            
+            В качестве наFZглядного примера, возьмём Фа-минорную пентатонику, которая содержит следующие ноты (ступени): Фа, Ля-бемоль, Си-бемоль, До и Ми-бемоль.
+            <fieldset>JL9GOKXrOpAX7EyZeHYrgfUVVrffL</fieldset>
             Из рисунка видно, что в каждом боксе, первая нота соответствует ступени пентатоники — Фа (1), Ля-бемоль (2), Си-бемоль (3), До (4), Ми-бемоль (5).</p>
-             
             
             <img src="https://about-guitar.ru/wp-content/uploads/2016/10/big1396631164.jpg" alt="">
+
+
+            Минорная пентатоника
+Минорная пентатоника — представляет собой натуральную минорную гамму из которой удалены 2-я и 6-я ступени. Если обратиться к нашему примеру, то в Фа-минорной пентатонике отсутствуют ноты Соль и До-диез.
+
+Фа-минорная пентатоника
+
+Мажорная пентатоника
+Мажорная пентатоника — это мажорная гамма из которой удалены 4-я и 7-я ступени. В нашем примере, параллельной тональностью Фа-минора является Ля-бемоль мажор. Так вот, в пентатонике Ля-бемоль мажор отсутствуют ноты До-диез и Фа-диез.
             </div>
+
+
+
+
+
 
             <div id="do" class="tabcontent">
                 <p>Аппликатуры гаммы до-минор на грифе</p>
@@ -117,12 +131,31 @@
                 <p>C#-D#-F-F#-G#-A#-C-C#</p>
                 <img src="https://guitargrad.ru/images/materials/dbmaj_all.jpg" alt="">
 
+
+
+                
 <!----------------------------------------------------------------------------------------------->
 <!----------------------------------------------------------------------------------------------->
 <!----------------------------------------------------------------------------------------------->
 
-              
+
             </div>
+
+
+
+            <div id="pentatonik" class="tabcontent">
+                <p>wafe</p><h3>ewgwegew</h3>
+                <img src="https://guitargeek.ru/images/blog/gammi/C_pent/c-dur-pentatonik-gitarre.gif" alt="">
+                <img src="https://guitargeek.ru/images/blog/gammi/C_pent/c-dur-pentatonik-pattern-1.gif
+                " alt="">
+                <img src="https://guitargeek.ru/images/blog/gammi/C_pent/c-dur-pentatonik-pattern-2.gif" alt="ф">
+                <img src="https://guitargeek.ru/images/blog/gammi/C_pent/c-dur-pentatonik-pattern-3.gif" alt="">
+                <img src="https://guitargeek.ru/images/blog/gammi/C_pent/c-dur-pentatonik-pattern-4.gif" alt="">
+                <img src="https://guitargeek.ru/images/blog/gammi/C_pent/c-dur-pentatonik-pattern-5.gif" alt="">
+                <img src="" alt="">
+                </div>
+
+
             <div id="re" class="tabcontent">
                 <p>D-E-F#-G-A-B-C#-D <br>
 
